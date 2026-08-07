@@ -144,13 +144,26 @@ body {
 @media (max-width: 700px) {
   .page-layout {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     gap: 28px;
     padding-top: 36px;
   }
   .sidebar {
     position: static;
     flex: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: left;
+  }
+  .sidebar-photo {
+    margin: 0;
+    flex: 0 0 auto;
+    width: 110px;
+    height: 110px;
+  }
+  .social-links {
+    display: block;
   }
 }
 
