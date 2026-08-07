@@ -98,8 +98,8 @@ body {
 }
 
 .sidebar-photo {
-  width: 175px;
-  height: 175px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid var(--accent-light);
@@ -141,7 +141,7 @@ body {
   color: var(--accent);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .page-layout {
     flex-direction: column;
     align-items: stretch;
@@ -159,8 +159,8 @@ body {
   .sidebar-photo {
     margin: 0;
     flex: 0 0 auto;
-    width: 130px;
-    height: 130px;
+    width: 200px;
+    height: 200px;
   }
   .social-links {
     display: block;
