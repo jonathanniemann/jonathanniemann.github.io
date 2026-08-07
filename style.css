@@ -98,8 +98,8 @@ body {
 }
 
 .sidebar-photo {
-  width: 150px;
-  height: 150px;
+  width: 175px;
+  height: 175px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid var(--accent-light);
@@ -159,6 +159,8 @@ body {
   .sidebar-photo {
     margin: 0;
     flex: 0 0 auto;
+    width: 130px;
+    height: 130px;
   }
   .social-links {
     display: block;
